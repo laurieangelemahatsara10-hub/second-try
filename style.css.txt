@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #a3c4f3; /* initial soft blue */
+  transition: background-color 0.5s ease;
+}
+
+h1 {
+  color: #2c3e50;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+}
+
+img {
+  border-radius: 15px;
+  transition: opacity 0.5s ease;
+  opacity: 1;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #3498db;
+  color: white;
+  transform: scale(1.1);
+}

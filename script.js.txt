@@ -1,0 +1,19 @@
+const image1 = "https://i.postimg.cc/wM1q3gY5/Whats-App-Image-2025-11-04-a-15-43-32-c482f899.jpg";
+const image2 = "https://i.postimg.cc/RFF6QrzG/Whats-App-Image-2025-11-03-a-19-46-57-0ba6c4e7.jpg";
+
+const myImage = document.getElementById("myImage");
+const myButton = document.getElementById("myButton");
+const body = document.body;
+
+let showingImage1 = true;
+
+myButton.onclick = function() {
+  myImage.style.opacity = 0;
+
+  setTimeout(function() {
+    myImage.src = showingImage1 ? image2 : image1;
+    body.style.backgroundColor = showingImage1 ? "#a0e7e5" : "#a3c4f3";
+    showingImage1 = !showingImage1;
+    myImage.style.opacity = 1;
+  }, 500);
+};

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laurie's Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Laurie</h1>
+  <p>Welcome to my first interactive website!</p>
+
+  <img id="myImage" src="https://i.postimg.cc/wM1q3gY5/Whats-App-Image-2025-11-04-a-15-43-32-c482f899.jpg" alt="My Picture" width="200">
+
+  <br><br>
+  <button id="myButton">Click Me</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
